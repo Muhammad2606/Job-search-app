@@ -17,8 +17,8 @@ const bull = (
 export default function MainRight() {
   return (
     <Card
-      sx={{ minWidth: "256" }}
-      className="w-[850px] sm:w-[100px] md:[850px] lg:w-[900px]"
+      sx={{ minWidth: "100px" }}
+     
     >
       <CardContent>
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>

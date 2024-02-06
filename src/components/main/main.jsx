@@ -78,11 +78,14 @@ const Main = () => {
           width: "100%",
           flexDirection: "row",
           gap: "10px",
-          margin: "10px",
+          margin: "40px 0",
+          flex: 'wrap',
+          justifyContent: 'center',
+    
         }}
         className="container w-full"
       >
-        <Box className="border border-slate-900 w-[40%] overflow-y-auto overflow-x-hidden p-3 ml-[20px] sm:opacity-100 opacity-0">
+        <Box  className="border border-slate-900 w-[40%] overflow-y-auto overflow-x-hidden p-3 ml-[20px] hidden  md:block hidden  sm:block ">
           <List
             sx={{ width: "100%", maxWidth: 420, bgcolor: "background.paper" }}
           >
@@ -165,7 +168,7 @@ const Main = () => {
             </ListItem>
           </List>
         </Box>
-        <Box className=" w-96 sm:w-[100px] md:[850px] xl:w-[100%]">
+        <Box className="w-[70%] mr-10 [sm:mr-0]">
           <MainRight />
         </Box>
       </div>
