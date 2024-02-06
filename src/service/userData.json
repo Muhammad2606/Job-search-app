@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Farrukh",
+      "lastName": "Tugonov",
+      "email": "farrux@gmail.com",
+      "password": "20030825"
+    },
+    {
+      "id": 2,
+      "firstName": "Farrukh",
+      "lastName": "Tugonov",
+      "email": "tugonovfarrukh7@gmail.com",
+      "password": "jYH5tq4T_Ep7zzJ"
+    }
+  ]
+}
